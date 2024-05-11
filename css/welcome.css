@@ -1,0 +1,69 @@
+@import url(variables.css);
+
+header{
+    background-image: url(/storage/Img/log.jpeg);
+    height: 30vh;
+    border-bottom-right-radius:80% ;
+    /* border-bottom-left-radius:80% ; */
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-bottom: 60px;
+}
+
+.welcome h1{
+    color: var(--color-1);
+}
+
+.box1{
+    background-color: rgba(29, 1, 54, 0.3);
+    width: 350px; 
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.box1 img{
+    margin-left: 15px;
+}
+
+.box1 p{
+    margin-left: 20px;
+}
+
+.box2{
+    background-color: rgba(29, 1, 54, 0.3); 
+    width: 350px; 
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+
+.box2 img{
+    margin-left: 15px;
+}
+
+.box2 p{
+    margin-left: 20px;
+}
+
+.login{
+    background-color: var(--color-1);
+    width: 350px;
+    height: 8vh;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.login p{
+    color: var(--color-3);
+}
