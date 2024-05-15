@@ -19,8 +19,9 @@ header{
 }
 
 .box1{
-    background-color: rgba(29, 1, 54, 0.3);
+    background-color:var(--color-2);
     width: 350px; 
+    height: 7.5vh;
     display: flex;
     margin-left: 30px;
     align-items: center;
@@ -28,31 +29,41 @@ header{
     margin-bottom: 25px;
 }
 
-.box1 img{
-    margin-left: 15px;
+.box1 input{
+    margin-left: px;
+    width: 260px;
+    height: 20px;
+    background-color:var(--color-2);
+    border-color:var(--color-2);
 }
+.search__icon{
 
-.box1 p{
-    margin-left: 20px;
+    bottom: .10rem;
+    left: .8rem;
+    user-select: none;
+    cursor: pointer;
+    padding: 12px;
 }
 
 .box2{
-    background-color: rgba(29, 1, 54, 0.3); 
+    background-color:var(--color-2);
     width: 350px; 
+    height: 7.5vh;
     display: flex;
     margin-left: 30px;
     align-items: center;
     border-radius: 15px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
-.box2 img{
-    margin-left: 15px;
+.box2 input{
+    margin-left: px;
+    width: 260px;
+    height: 20px;
+    background-color:var(--color-2);
+    border-color:var(--color-2);
 }
 
-.box2 p{
-    margin-left: 20px;
-}
 
 .login{
     background-color: var(--color-1);

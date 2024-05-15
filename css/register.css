@@ -1,0 +1,102 @@
+@import url(variables.css);
+
+header{
+    background-image: url(/storage/Img/log.jpeg);
+    height: 30vh;
+    border-bottom-left-radius:80% ;
+    /* border-bottom-left-radius:80% ; */
+}
+
+
+.register{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-bottom: 60px;
+}
+
+.register h1{
+    color: var(--color-1);
+}
+
+.box1{
+    background-color:var(--color-2);
+    width: 350px; 
+    height: 7.5vh;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.box1 input{
+    margin-left: px;
+    width: 260px;
+    height: 20px;
+    background-color:var(--color-2);
+    border-color:var(--color-2);
+}
+.search__icon{
+
+    bottom: .10rem;
+    left: .8rem;
+    user-select: none;
+    cursor: pointer;
+    padding: 12px;
+}
+
+
+
+.box2{
+    background-color:var(--color-2);
+    width: 350px; 
+    height: 7.5vh;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.box2 input{
+    margin-left: px;
+    width: 260px;
+    height: 20px;
+    background-color:var(--color-2);
+    border-color:var(--color-2);
+}
+
+
+.box3{
+    background-color:var(--color-2);
+    width: 350px; 
+    height: 7.5vh;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.box3 input{
+    margin-left: px;
+    width: 260px;
+    height: 20px;
+    background-color:var(--color-2);
+    border-color:var(--color-2);
+}
+
+.login{
+    background-color: var(--color-1);
+    width: 350px;
+    height: 8vh;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.login p{
+    color: var(--color-3);
+}
